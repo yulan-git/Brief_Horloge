@@ -34,7 +34,7 @@ function demarrerLaMontre() {
     
     let secondDeg = seconde * 6;
     let minuteDeg = minute * 6 ;
-    let hourDeg = hour * 30 + Math.floor(minute/12) * 6;
+    let hourDeg = hour * 30 + minute/2;
 
     AIGUILLESEC.style.transform = 'rotate(' + secondDeg + 'deg)';
     AIGUILLEMIN.style.transform = 'rotate(' + minuteDeg + 'deg)';
